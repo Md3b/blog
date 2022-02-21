@@ -5,7 +5,7 @@ const resolve = pathName => path.join(__dirname, pathName)
 const isProd = process.env.NODE_ENV === 'production'
 
 module.exports = {
-    base: isProd ? '/vuepress-theme-indigo/' : '/',
+    base: isProd ? '/blog/' : '/',
     dest: 'dist',
     title: "Yusen's Blog",
     description: '王昱森的博客。无所谓做什么，只要是当前最感兴趣的事！随心、随性、随缘！',
@@ -24,7 +24,7 @@ module.exports = {
     theme: 'indigo',
     locales: {
         '/': {
-            lang: 'zh-CN',
+            lang: 'ar-AR',
             title: "Yusen's Blog",
             description: '王昱森的博客。无所谓做什么，只要是当前最感兴趣的事！随心、随性、随缘！'
         }
@@ -53,7 +53,7 @@ module.exports = {
         return myConfig
     },
     themeConfig: {
-        lang: 'zh-CN',
+        lang: 'ar-AR',
         postDir: '/posts',
         subTitle: '学习弯道超车的技巧！',
         author: '王昱森',
