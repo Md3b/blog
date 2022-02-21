@@ -76,13 +76,13 @@ module.exports = {
             {
                 text: 'Github',
                 icon: 'fab fa-github',
-                url: 'https://github.com/yscoder',
+                url: 'https://github.com/md3b',
                 external: true
             },
             {
                 text: 'Weibo',
                 icon: 'fab fa-weibo',
-                url: 'https://www.weibo.com/ysweb',
+                url: 'https://www.weibo.com/md3b',
                 external: true
             },
             {
